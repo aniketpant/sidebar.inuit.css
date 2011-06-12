@@ -60,13 +60,12 @@ Create a pure CSS dropdown.
 	display:block;
 }
 .dropdown ul{ /* Set up the dropdown and hide it off-screen. */
+	list-style:none;
 	margin:0;
 	position:absolute;
 	left:-99999px;
 	top:100%;
-	z-index:5;
 	background:url(trans.gif); /* This makes IE7 work properly. */
-	list-style:none;
 }
 .dropdown li:hover ul{ /* Bring the dropdown back onto screen when you hover its parent li. */
 	left:0;
