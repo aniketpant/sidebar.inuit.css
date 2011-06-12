@@ -6,10 +6,10 @@ An igloo is simply a plugin for the [inuit.css](http://inuitcss.com) framework. 
 
 ## How?
 
-Include inuit.css in the `&lt;head&gt;` using a `&lt;link /&gt;`, then include igloos in the same manner after this. E.g.
+Include inuit.css in the `<head>` using a `<link />`, then include igloos in the same manner after this. E.g.
 
-    `&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/inuit.css&quot; /&gt;`
-    `&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/annotate.inuit.css&quot; /&gt;`
+    <link rel="stylesheet" href="/css/inuit.css" />
+    <link rel="stylesheet" href="/css/annotate.inuit.css" />
 
 ### HTTP requests?
 
